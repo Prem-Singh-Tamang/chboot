@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+
+</script>
+<link rel="stylesheet" href="/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/bootstrap-5.2.3-dist/js/bootstrap.min.js">
+
+    </head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark " style="background-color:lightpink ;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img class="rounded-circle" src="snoopyret.jpg" style="width:50px ; height: 40px;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">AboutUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+
+       
+  
+
+
+  <div class="containerone">         
+    <img id="golden" src="goldenretrieversf1.jpg" class="rounded-circle " alt="Cinque Terre"  width="504" height="336"> 
+  </div>
+
+    <!-- jumbotron -->
+    <br><br>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Golden Retriever</h1>
+            <p>Golden retrievers are an extremely popular breed and make great companions and pets to people of all ages and families with children.</p>
+
+
+        </div>
+    </div>
+    <!-- table -->
+    <br> <br>
+    <div class="container" style="background-color:khaki ;">
+        <h2>Retriever Breeds</h2>
+        <p>There are three different types of golden Retriever:</p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Breed type</th>
+                    <th>Speciality</th>
+                    <th>Fur Type</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Canadian Golden Retrievers</td>
+                    <td>darker, shorter, and thinner</td>
+                    <td>Coats come in all shades of gold</td>
+                </tr>
+                <tr>
+                    <td>English Golden Retrievers</td>
+                    <td>solidly built and heavier</td>
+                    <td>standard allows cream as coat color</td>
+                </tr>
+                <tr>
+                    <td>American Golden Retrievers</td>
+                    <td>Larger than English retrievers</td>
+                    <td>long, dense, and wavy water-repellent coat.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- popover -->
+<div class="container mt-3">
+  <h5> for references please click button below</h5>
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="more  types of breeds" data-bs-content="Field-Bred Golden Retrievers, Show Golden Retrievers, Red Golden Retriever,  White Golden, Black Golden Retrievers, Mini Golden Retrievers.     ">
+    press me
+  </button>
+</div>
+
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+
+<!-- grids -->
+<br><br>
+    <div class="row">
+        <div class="col-ch-1" style="text-align: center;background-color:lavender;">Types of Retrievers with picture</style></div> <br> <br>
+        
+    </div>
+
+    
+
+
+
+
+    <!-- img gallary -->
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="canadianretriever.jpg" target="_blank">
+                <img src="canadianretriever.jpg" alt="Lights" style="width:100%">
+                <div class="caption">
+                    <p>Canadian Golden Retrievers are essentially the same as American Goldens, with minimal variation. These Goldens have a long golden coat that can vary slightly in the shade. They stand at the same height as adult American Golden Retrievers, with males being 23-24 inches tall and females being 21.5-22.5 inches tall.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="englishretriever.jpg" target="_blank">
+                <img src="englishretriever.jpg" alt="Nature" style="width:100%">
+                <div class="caption">
+                  <p>An English cream golden retriever is a golden retriever descended from an English line with a light-colored coat. This breed is not officially recognized by any kennel club, which means that many breeders may claim to offer English cream golden retrievers for sale without much oversight.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="americanretriever.png" target="_blank">
+                <img src="americanretriever.png" alt="Fjords" style="width:100%">
+                <div class="caption">
+                  <p>The Golden Retriever, an exuberant Scottish gundog of great beauty, stands among America's most popular dog breeds. They are serious workers at hunting and field work, as guides for the blind, and in search-and-rescue, enjoy obedience and other competitive events, and have an endearing love of life when not at work.</p>
+
+                 
+  
+
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="alert">
+        <div class="alert alert-success">for more info visit:  <a href="https://www.hillspet.com/dog-care/dog-breeds/golden-retriever">https://www.hillspet.com/dog-care/dog-breeds/golden-retriever</a> Golden Retriever  </div>
+        </div>
+
+      <!-- alerts -->
+      <br><br><br>
+      <div class="alert alert-danger" style="text-align:center;" > 
+      <strong>Retriever's Behaviour</strong>  
+      <p>Goldens are outgoing, trustworthy, and eager-to-please family dogs, and relatively easy to train. They take a joyous and playful approach to life and maintain this puppyish behavior into adulthood. These energetic, powerful gundogs enjoy outdoor play. The golden retriever is even-tempered, intelligent and affectionate. Golden retrievers are playful, yet gentle with children, and they tend to get along well with other pets and strangers.
+
+        These dogs are eager to please, which probably explains why they respond so well to obedience training and are such popular service dogs. They also like to work, whether it involves hunting birds or fetching their guardian's slippers..
+        
+        Golden retrievers are not often barkers, and they lack guard instincts, so do not count on them to make good watchdogs. However, some golden retrievers will let you know when strangers are approaching</p>
+      </div>
+
+    
+
+
+      <!-- buttons -->
+
+
+      <div class="container">
+         <button type="button" class="btn btn-primary">Learn more</button>
+      </div>
+      
+<br> <br> <br> 
+      <!-- progress bar -->
+      <div class="container">
+        <h2>Retriever lover in percent over the world </h2>
+        <img src="lovers.jpg" class="rounded-circle " alt="Cinque Terre"  width="504" height="336"> 
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <span class="sr-only">70%</span>
+          </div>
+        </div>
+      </div>
+<br> <br> <br>
+      <!-- pagination -->
+      <div class="lovers">
+        <h3>Retrievers Health</h3>
+        <p id="pet lover">Retriever Integrated Health (RIH) brings together the former University Health Services, Office of Health Promotion, and Counseling Center offices to work in a collaborative, holistic approach to support your well-being and success. Our team is committed to providing the UMBC community with high-quality services, support, and resources. RIH is an interdisciplinary team that includes our administrative staff members and a variety of healthcare professionals, representing disciplines of acupuncture, dietetics, health education, massage, nursing, medicine, psychiatry, psychology, public health, and social work</p>          
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </div>
+
+    
+
+      <!-- list group -->
+      
+<div class="container">
+  <h2>list of best food for retriever </h2>
+  <ul class="list-group">
+    <li class="list-group-item">Blue Buffalo Wilderness Grain-Free Chicken</li>
+    <li class="list-group-item">American Journey Large Breed Chicken and Sweet Potato</li>
+    <li class="list-group-item">Iams ProActive Health Large Breed Dog Food</li>
+  </ul>
+</div>
+<br> <br> <br>
+<!-- dropdown -->
+<div class="containermove">
+<h2>Most Expensive Retrivers</h2>
+  <p>Retrievers are expensive cause they are highly intellegent and depending upon thier desiarable outlooks. <br> some of the expensive retrivers are:</p>
+                                           
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Retrivers
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Cream colored golden retriever</a></li>
+      <li><a class="dropdown-item" href="#">American Golden Retriever</a></li>
+      <li><a class="dropdown-item" href="#">Gundog golden retriever</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- collapsible -->
+<div class="container mt-3">
+  <h4>Why do people love golden retrievers?</h4>
+   <p>  golden retriever lover
+    A golden retriever has a loving and affectionate demeanor. A golden retriever is gentle with kids and other animals. A golden retriever is loyal to his family. A golden retriever is eager to please his owners, making him easier to train</p>
+  <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Additional Para</button>
+  <div id="demo" class="collapse">The Golden Retriever is one of the most popular dog breeds in the United States. The breed’s friendly, tolerant attitude makes them great family pets, and their intelligence makes them highly capable working dogs
+   
+  </div>
+</div>
+
+ 
+
+  
+<br> <br> <br>
+
+<div id="ref">
+  <p id="ref">If you own a Golden Retriever, then you know firsthand how much joy and happiness they bring to you. So how do you return the favour to your dog?  Find out in this article how to take care of a Golden Retriever and discover the 10 easy ways you can make your Golden Retriever happy.
+
+    Golden Retrievers are one of the most popular dog breeds in America and with good reason!
+    
+    They are not only stunningly beautiful, but they have brains as well. Their friendly and gentle disposition makes them great family dogs. Goldens love people of all ages and get along well with other animals.
+    
+    They are simply wonderful! They are a very easygoing breed, which makes them great for first-time dog owners, but they do have requirements that need to be met to ensure their happiness</p>
+     <h3>For further info: </h3>
+</div>
+<!-- forms -->
+<div class="container">
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox" name="remember"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+<br> <br> <br>
+
+
+
+<!-- media object -->
+<div class="media">
+  <div class="media-left">
+    <img src="goldenretrieversf1.jpg" class="media-object" style="width:350px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">show them lots of love</h4>
+    <p>Golden Retrievers love to be with you at all times. They crave human attention and affection, the more the better! Often, they will sit by your feet and lean into you or will paw at you to keep petting them. They are lovingly referred to as “Velcro dogs”, because they are always by your side, following you everywhere, even the bathroom!</p>
+  </div>
+</div>
+<hr>
+
+<!-- Right-aligned media object -->
+<div class="media">
+  <div class="media-body">
+    <h4 class="media-heading">Feed them the best food possible</h4>
+    <p>When it comes to feeding your Golden, you should feed the best food you can. A high-quality diet is a must for these dogs, as they can easily develop skin problems such as allergies, and they can easily become overweight</p>
+  </div>
+  <div class="media-right">
+    <img src="snoopyret.jpg" class="media-object" style="width:350px">
+  </div>
+</div>
+
+<br> <br> <br>
+<!-- carousel -->
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="snoopyret.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="goldenretrieversf1.jpg" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="canadianretriever.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+  <!-- END OF THE CAROUSEL -->
+
+
+  <!-- modal -->
+  <div class="container mt-3">
+    <h3>Intresting facts of Retrievers</h3>
+    <p>Click on for the facts of Golden Retriever</p>
+    
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+      Click On
+    </button>
+  </div>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Golden Retrievers love to eat. <br>
+          Past puppyhood, Golden Retrievers often stay young at heart. <br>
+          They're a hard-working breed
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+ 
+<!-- tooltip -->
+<div class="container mt-3">
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="BawwwBaaAaWww!">
+    cuddle me
+  </button>
+</div>
+
+<script>
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+<br> <br> <br>
+
+<!-- grid system -->
+<div class="container-fluid mt-3">
+  <h3>Population of retriever in percent in various country</h3>
+  <p>Retrivers are highly populated all over the world, since its most beautiful and attractive dog. so i have given the population data over percentage for various countries below:</p>
+  
+  <!-- Control the column width, and how they should appear on different devices -->
+  <div class="row">
+    <div class="col-sm-6 bg-primary text-white">50%</div>
+    <div class="col-sm-6 bg-dark text-white">50%</div>
+  </div>
+  <br>
+    
+  <div class="row">
+    <div class="col-sm-4 bg-primary text-white">33.33%</div>
+    <div class="col-sm-4 bg-dark text-white">33.33%</div>
+    <div class="col-sm-4 bg-primary text-white">33.33%</div>
+  </div>
+  <br>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+    <div class="col-sm bg-primary text-white">25%</div>
+    <div class="col-sm bg-dark text-white">25%</div>
+    <div class="col-sm bg-primary text-white">25%</div>
+    <div class="col-sm bg-dark text-white">25%</div>
+  </div>
+  <br>
+    
+  <div class="row">
+    <div class="col bg-primary text-white">25%</div>
+    <div class="col bg-dark text-white">25%</div>
+    <div class="col bg-primary text-white">25%</div>
+    <div class="col bg-dark text-white">25%</div>
+  </div>
+</div>
+
+
+
+<br> <br> <br>
+<!-- grid large -->
+<div class="container-fluid mt-3">
+  <h1>DoGGo</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-6 col-lg-4 bg-primary text-white">
+        The Golden Retriever is one of the most popular dog breeds in the United States. The breed’s friendly, tolerant attitude makes them great family pets, and their intelligence makes them highly capable working dogs.
+
+        Golden Retrievers excel at retrieving game for hunters, tracking, sniffing out contraband for law enforcement, and as therapy and service dogs. They’re also natural athletes and do well in dog sports such as agility and competitive obedience.
+      </div>
+      <div class="col-sm-9 col-md-6 col-lg-8 bg-dark text-white">
+        <img src="golden-retriever-colors.webp" style="height:500px; width: 811px;" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<br> <br> <br>
+<div id="exim">
+  <img src="bgpup.png" style="width:1250px ;height:700px"   alt="">
+</div>
+<!-- input sizing -->
+<div class="form-group" style="width:300px; position: relative; left: 50px;">
+  <label for="inputdefault"><strong>Comment:</strong> </label>
+  <input class="form-control" id="inputdefault" type="text" style="background-color:khaki;">
+</div>
+
+
+
+</div>
+</body>
+
+    </html>
+    
